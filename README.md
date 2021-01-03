@@ -1,5 +1,7 @@
 # Wix.com Usability Analysis
 
+![test](https://github.com/lparolari/wix-usability-analysis/workflows/test/badge.svg)
+
 > A comprehensive report on usability issues for
 > [wix.com](https://wix.com) website.
 
