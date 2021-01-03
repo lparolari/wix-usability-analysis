@@ -24,6 +24,10 @@ pdf1: pdflatex bib pdflatex
 pdf2: dxjoke-tectonic-docker
 pdf3: blang-latex-docker
 
+clean: clear
+clear:
+	rm -f *.pdf *.aux *.fdb_latexmk *.fls *.log *.out *.pdf *.toc
+
 # Specific recipes
 # ================
 
