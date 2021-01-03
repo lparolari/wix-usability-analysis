@@ -1,21 +1,27 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[italian]{babel}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
+\usepackage[utf8]{inputenc}  % .tex chars encoding
+\usepackage[T1]{fontenc}     % .pdf chars encoding
+\usepackage[italian]{babel}  % translations
+\usepackage{amsmath}         % math symbols
+\usepackage{amsfonts}        % extended math symbols
+\usepackage{amssymb}         % other math symbols
+\usepackage{hyperref}        % hyperref
+\usepackage{graphicx}        % images
 
 % Macros
 % ======
+\newcommand*{\wix}{Wix}
 \newcommand*{\wixcom}{wix.com}
-\newcommand*{\wixcome}{\emph{\wixcom}}
+\newcommand*{\wixcome}{\emph{\wixcom{}}}
 
 % Configs
 % =======
 
+% Path relative to the main .tex file 
+\graphicspath{ {./img/} }
+
 \author{Luca Parolari}
-\title{Web Information Management\\ \large Analisi di usabilità del sito web \wixcom}
+\title{Web Information Management\\ \large Analisi di usabilità del sito web \wixcom{}}
 
 % Document
 % ========
@@ -31,6 +37,24 @@
 
 \section{Introduzione}
 \label{sec:intro}
+
+Questo documento si prefigge lo scopo di fornire un'analisi di
+usabilità del sito web \href{https://wix.com}{\wixcom{}}. Il sito web è
+stato analizzato nel periodo di gennaio 2021.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.25\textwidth]{wix-logo}
+  \caption{Logo di \wix{}}
+  \label{fix:wix-logo}
+\end{figure}
+
+\wix{} promuove il suo prodotto principale: un site builder fruibile da
+tutti gli utenti sia con che senza conoscenza informatica. I suoi
+obiettivi principali sono rendere semplice, immediata, user-friendly e
+gratuita la manutenzione del proprio sito web online offrendo
+strumenti integrati nel site builder per costruire e modificare blog,
+e-commerce e siti vetrina.
 
 \section{Analisi preliminare}
 \label{sec:preliminary-analysis}
