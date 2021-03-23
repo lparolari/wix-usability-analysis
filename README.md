@@ -7,7 +7,7 @@
 
 ## Get the report
 
-[🚀 Read the report](https://github.com/lparolari/wix-usability-analysis/releases/download/v1.0/report.zip)
+[🚀 Read the report](https://github.com/lparolari/wix-usability-analysis/releases/download/v1.0/report.pdf) or see the [release page](https://github.com/lparolari/wix-usability-analysis/releases/tag/v1.0).
 
 ## Build the report from sources
 
