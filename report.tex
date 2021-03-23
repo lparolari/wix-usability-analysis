@@ -474,6 +474,94 @@ solo dopo diversi scroll.
 \subsection{Navigazione}
 \label{subsec:navigation}
 
+La navigazione del sito \wix{} non è ottimale. Molti dei link di
+\wix{} non sfruttano le convenzioni tradizionali dei link (colore blu
+prima di essere visitati e viola dopo la visita), anzi. Spesso sono
+bianchi se su sfondo scuro oppure nere su sfondo chiaro, proprio come
+il testo. In questi casi però l'intuizione dell'utente è aiutata da
+sottolineatura e dal simbolo di una ``freccina''. Altri link,
+principalmente call-to-action, sono trasformati in pulsanti, rendendo
+invece chiara l'intenzione del componente.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[]{img/link-btn.png}
+  \caption{Link a forma di pulsante}
+  \label{fig:link-btn}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[]{img/link-white-on-blue-underline.png}
+  \caption{Link bianco su blu con enfasi}
+  \label{fig:link-white-on-blue-underline}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[]{img/link-black-on-white-underline.png}
+  \caption{Link nero su bianco con enfasi}
+  \label{fig:black-on-white-underline}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[]{img/link-text.png}
+  \caption{Link immerso nel testo}
+  \label{fig:link-text}
+\end{figure}
+
+Il menu di navigazione in alto al sito è molto standard ma presenta un
+problema fondamentale: ogni voce del menu apre una nuova
+scheda. Questo in termini di usabilità è molto impattante in quanto
+viene meno la funzione back del browser: le nuove schede del browser
+resettano la storia di navigazione. Ciò significa che l'utente non può
+ricorrere all'algoritmica low-cost per cercare tramite backtracking
+informazioni, oltre al fatto che molte tab del browser confondono
+l'utente medio.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/navbar.png}
+  \caption{Menu di navigazione}
+  \label{fig:navbar}
+\end{figure}
+
+Il sito web non presenta nessun aiuto alla navigazione con la tecnica
+breadcrumb, anche non ci sono forti gerarchie di pagine per le quali
+la breadcrumb sarebbe necessaria.
+
+Altro grande assente sul sito web \wix{} è la funzionalità di
+ricerca. Seppur \wix{} abbia diversi prodotti e abbia diverse
+informazioni sul proprio sito web, compreso il supporto con guide e
+tutorial per lo sviluppo del proprio sito web, non viene offerta una
+funzionalità di ricerca sul primo livello del sito web. Solo la pagina
+``Assistenza'' è fornita di questa funzionalità, ma chiaramente la
+ricerca in questo caso trova solo gli articoli con la documentazione
+su \wix{}, non cerca informazioni sul sito.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/search-bar.png}
+  \caption{Barra di ricerca della pagina assistenza}
+  \label{fig:search-bar}
+\end{figure}
+
+Inoltre, la barra di ricerca, come mostra la figura
+\ref{fig:search-bar} non è standard: il pulsante per cercare non
+esiste e l'icona con la lente di ingrandimento è una metafora tradita:
+non può essere cliccata. Non esiste nemmeno il supporto alla pressione
+del tasto \textit{enter}. Di fatto, per cercare bisogna digitare una
+query e solo a questo punto premere sulla lente di ingrandimento (ora
+colorata di blu) oppure direttamente su uno dei risultato rapidi.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/search-bar-results.png}
+  \caption{Utilizzo della barra di ricerca della pagina assistenza}
+  \label{fig:search-bar-results}
+\end{figure}
+
 \subsection{Pubblicità}
 \label{subsec:ads}
 
