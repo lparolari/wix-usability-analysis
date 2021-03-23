@@ -1,4 +1,4 @@
-# Wix.com Usability Analysis
+# Wix's Website Usability Analysis
 
 ![test](https://github.com/lparolari/wix-usability-analysis/workflows/test/badge.svg)
 
@@ -7,7 +7,7 @@
 
 ## Get the report
 
-TODO: add release
+[🚀 Read the report](https://github.com/lparolari/wix-usability-analysis/releases/download/v1.0/report.zip)
 
 ## Build the report from sources
 
@@ -47,13 +47,21 @@ make BUILD_STRATEGY=pdf2
 make BUILD_STRATEGY=pdf1
 ```
 
+## ⚠️ Disclaimer ⚠️
+
+> This report is not official. The report is intended to be **MY
+> PERSONAL OPINION** on Wix website. I analysed it only for academic
+> puposes in order to sustain the Web Information Management exam at
+> University of Padua in 2021. If this is hurting someone please let
+> me know and I will remove it.
+
 ## Author
 
 Luca Parolari
 
 - GitHub: [https://github.com/lparolari](https://github.com/lparolari)
 - Email: <luca.parolari23@gmail.com>
-- Telegram: @lparolari
+- Telegram: [@lparolari](https://t.me/lparolari)
 
 ## License
 
